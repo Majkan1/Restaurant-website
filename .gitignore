@@ -8,9 +8,12 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
-dist
 dist-ssr
 *.local
+
+# Ignore nested Vite folder artifacts (repo root is the app)
+vite-project/dist/
+vite-project/node_modules/
 
 # Editor directories and files
 .vscode/*
