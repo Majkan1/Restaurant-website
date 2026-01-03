@@ -9,10 +9,10 @@ export default function App() {
 
 function Photo(){
   return (
-    <div>
+    <div className = "Both">
       <div className = "Black"></div>
       <div className = "Photo">
-        <img src="/Photo.jpg" alt="Image of Pizza"/>
+        <img src={`${import.meta.env.BASE_URL}Photo.jpg`} alt="Image of Pizza"/>
       </div>
     </div>
   )
