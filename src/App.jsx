@@ -12,7 +12,7 @@ function Photo(){
     <div>
       <div className = "Black"></div>
       <div className = "Photo">
-        <img href = "Photo.jpg" alt = "Image of Pizza"/>
+        <img src="/Photo.jpg" alt="Image of Pizza" />
       </div>
     </div>
   )
