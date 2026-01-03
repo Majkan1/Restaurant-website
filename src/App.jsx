@@ -11,8 +11,8 @@ function Photo(){
   return (
     <div className = "Both">
       <div className = "Black"></div>
-      <div className = "Photo">
-        <img src={`${import.meta.env.BASE_URL}Photo.jpg`} alt="Image of Pizza"/>
+      <div>
+        <img className = "Photo" src={`${import.meta.env.BASE_URL}Photo.jpg`} alt="Image of Pizza"/>
       </div>
     </div>
   )
