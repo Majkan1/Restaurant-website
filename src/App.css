@@ -1,4 +1,9 @@
+.Black,
+.Photo{
+  height: 500px;
+  width:500px;
+}
+
 .Black{
-    height: 500px;
-    width:500px;
+  background-color: black;
 }
